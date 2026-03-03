@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*$py.class
+
+
+# Pycharm
+.idea/*
+
+# results dir
+/files
+/utils/convert_wandb.py
