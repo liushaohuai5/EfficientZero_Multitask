@@ -4,7 +4,7 @@ EZ-M is a multi-task extension of EfficientZero series focused on humanoid locom
 We also reserved support for Atari (single-task) and DMControl single-task training. 
 We recommend multi-task training in the future RL due to superior overall sample efficiency. More details could refer to:
 
-[Project page](https://liushaohuai5.github.io/_projects/ez_m/),
+[Project page](https://yewr.github.io/ez_m/),
 [Paper link](https://arxiv.org/pdf/2603.01452)
 
 The training pipeline is built around Hydra configuration, Ray-based workers, PyTorch models, and a custom C++/Cython Gumbel search backend. The main entry points are:
