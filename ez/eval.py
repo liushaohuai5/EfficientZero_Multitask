@@ -145,7 +145,6 @@ def eval_pure(agent, model, n_episodes, save_path, config, envs, max_steps=None,
 
     for i, env in enumerate(envs):
         task_idx = int(task_idxs[i])
-        env.close()
         if config.env.multi_task:
             writer = imageio.get_writer(video_path / f'{config.env.env_names[task_idx]}_epi_{i%config.env.task_num}_{max_steps}.mp4')
         else:
