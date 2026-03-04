@@ -103,9 +103,9 @@ data:
 # MCTS
 mcts:
   language: cython
-  num_simulations: 16 #32         # GRPO if equal to num_top_actions
-  num_top_actions: 8 #16          # prev 4
-  num_sampled_actions: 8 #16      # same as Sampled MuZero
+  num_simulations: 32         # GRPO if equal to num_top_actions
+  num_top_actions: 16          # prev 4
+  num_sampled_actions: 16      # same as Sampled MuZero
   c_visit: 50.0
   c_scale: 0.1    # prev 0.1
   value_minmax_delta: 0.01
@@ -172,7 +172,7 @@ model:
   policy_distribution: tdmpc2  # squashed_gaussian or tdmpc2
   policy_loss_type: reanalyze  # policy_gradient or reanalyze
   policy_action_num: 4
-  random_action_num: 4 # 12
+  random_action_num: 12
   random_type: std   # std, normal, pink, OU
 
   reward_support:
