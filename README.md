@@ -109,10 +109,10 @@ scripts/       Example launch scripts
 
 ## Cite
 ```aiignore
-@article{liu2026ezm,
+@article{liu2026scaling,
   title={Scaling Tasks, Not Samples: Mastering Humanoid Control through Multi-Task Model-Based Reinforcement Learning},
   author={Liu, Shaohuai and Ye, Weirui and Du, Yilun and Xie, Le},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2603.01452},
   year={2026}
 }
 ```
